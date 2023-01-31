@@ -1,7 +1,6 @@
 Developed by: ROHIT JAIN D  
 RegisterNumber:  22005894  
 
-# Exercise-07-Multiplexer-and-De-multiplexer
 ### AIM: To implement 4 X1 multiplexer and 1X4 de multiplexer using verilog and validate its outputs
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
@@ -68,9 +67,13 @@ End the module.
 Step 6:
 Run the program and choose RTL viewer to get RTL realization.
 
-
-
-
+### Procedure:
+Step 1: Open Quartus II and select new project . Open new file at the verilog.  
+Step 2: Module Declaration. Module should have the file name.  
+Step 3: Input-Output Delecaration.  
+Step 4: Use wire to define the functionality of logic circuits.  
+Step 5: End the module.  
+Step 6: Run the program and choose RTL viewer to get RTL realization.  
 ### PROGRAM 
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 ```
@@ -104,17 +107,43 @@ endmodule
 ```
 
 ### RTL LOGIC  :
-- MULTIPLEXER:
+- MULTIPLEXER:  
+![215489018-83515ace-7db6-445d-bda2-81ab08de2d73](https://user-images.githubusercontent.com/118707073/215754259-d9b9f3e1-4398-4930-9759-fcab8f373f7b.png)
 
 
 
-- DEMULTIPLEXER:
+- DEMULTIPLEXER:   
+![215489239-155dc351-7c33-482a-abb0-252659fe84f4](https://user-images.githubusercontent.com/118707073/215754312-5eaabe6e-328d-47da-b8d4-b02ff579acba.png)
 
 
 ### TIMING DIGRAMS
+- MULTIPLEXER:  
+  - when I0=1:
+  ![215489708-794bd67c-4c83-4aeb-82fe-8252378e388f](https://user-images.githubusercontent.com/118707073/215754961-3731f1f2-4801-4854-ac20-20055febb250.png)
+
+  - when I1=1:  
+  ![215489746-cbcedb65-7a2d-45d4-a21d-694bc388f8f6](https://user-images.githubusercontent.com/118707073/215754992-9de0aa85-1000-4aa7-9197-0ea17ab13eaf.png)
+
+  - when I2=1:  
+  ![215489815-e2862823-fdd6-4da2-b2ea-bcd8ff551dbd](https://user-images.githubusercontent.com/118707073/215755024-a8bdca44-c45b-46cc-a669-caa669967c85.png)
+
+  - when I3=1:  
+  ![215489876-71867452-0a5c-4904-84d7-7f17f4276634](https://user-images.githubusercontent.com/118707073/215755105-3415a57a-e9aa-4c7b-b979-39b4d2536d87.png)
+
+  
+- DEMULTIPLEXER:  
+![215490016-b48d9d81-a649-4cfe-81e3-bdf7088f2892](https://user-images.githubusercontent.com/118707073/215755252-6d8d1e4e-cd5d-4b20-b513-312894476706.png)
 
 
 ### TRUTH TABLE
+- MULTIPLEXER:  
+![c8](https://user-images.githubusercontent.com/118707073/215755797-283451e0-7432-447f-8fe3-5b08e3f98796.png)
+
+- DEMULTIPLEXER:  
+![c9](https://user-images.githubusercontent.com/118707073/215755831-66906291-9e3c-481c-b78d-5969a92c212b.png)
 
 
-### RESULTS
+
+### RESULTS:  
+4 X1 multiplexer and 1X4 de multiplexer has been implemented using verilog and outputs are validated.
+
